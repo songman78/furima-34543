@@ -62,7 +62,7 @@ has_many :orders
 | city          | string     | null: false                    |
 | address       | string     | null: false                    |
 | building      | string     |                                |
-| phone number  | string     | null: false                    |
+| phone_number  | string     | null: false                    |
 | order         |references  | null: false, foreign_key: true |
 
 
