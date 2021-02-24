@@ -23,7 +23,6 @@ has_many :orders
 | Column            | Type     | Options                        |
 | ----------------- | -------- | ------------------------------ |
 | user              |references| null: false, foreign_key: true |
-| order             |references| null: false, foreign_key: true |
 | title             | string   | null: false                    |
 | description       | text     | null: false                    |
 | category_id       | integer  | null: false                    |
@@ -64,6 +63,8 @@ has_many :orders
 | address       | string     | null: false                    |
 | building      | string     |                                |
 | phone number  | string     | null: false                    |
+| order         |references  | null: false, foreign_key: true |
+
 
 ### Association
 
