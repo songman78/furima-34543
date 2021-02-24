@@ -16,7 +16,6 @@
 ### Association
 
 has_many :items
-has_many :comments
 has_many :orders
 
 ## items テーブル
@@ -24,6 +23,7 @@ has_many :orders
 | Column            | Type     | Options                        |
 | ----------------- | -------- | ------------------------------ |
 | user              |references| null: false, foreign_key: true |
+| order             |references| null: false, foreign_key: true |
 | title             | string   | null: false                    |
 | description       | text     | null: false                    |
 | category_id       | integer  | null: false                    |
@@ -33,10 +33,11 @@ has_many :orders
 | prefecture_id     | integer  | null: false                    |
 | price             | integer  | null: false                    |
 
+
+
 ### Association
 - belongs_to :user
 - has_one :order
-- has_many :comments
 
 
 ## order テーブル
