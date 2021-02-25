@@ -39,7 +39,7 @@ has_many :orders
 - has_one :order
 
 
-## order テーブル
+## orders テーブル
 
 | Column       | Type       | Options                        |
 | ------------ | ---------- | ------------------------------ |
@@ -53,7 +53,7 @@ has_many :orders
 - has_one :address
 
 
-## address テーブル
+## addresses テーブル
 
 | Column        | Type       | Options                        |
 | ------------- | ---------- | ------------------------------ |
