@@ -2,6 +2,10 @@ class Item < ApplicationRecord
   has_one_attached :image
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :category
+  belongs_to :condition
+  belongs_to :delivery_change
+  belongs_to :delivery_days
+  belongs_to :prefecture
 
   with_options presence: true do
     validates :user
