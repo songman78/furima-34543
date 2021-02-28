@@ -9,8 +9,8 @@ class Item < ApplicationRecord
 
   with_options presence: true do
     validates :user
-    validates :title
-    validates :text
+    validates :title, length: { maximum: 40 }
+    validates :text, length: { maximum: 1000 }
   with_options numericality: { other_than: 1 } do
     validates :category_id
     validates :condition_id 
