@@ -38,7 +38,6 @@ has_many :orders
 - belongs_to :user
 - has_one :order
 
-
 ## orders テーブル
 
 | Column       | Type       | Options                        |
