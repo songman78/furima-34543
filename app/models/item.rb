@@ -7,9 +7,8 @@ class Item < ApplicationRecord
   belongs_to :delivery_change
   belongs_to :delivery_days
   belongs_to :prefecture
-
   with_options presence: true do
-    validates :user
+    validates :image
     validates :title, length: { maximum: 40 }
     validates :description, length: { maximum: 1000 }
     with_options numericality: { other_than: 1 } do
