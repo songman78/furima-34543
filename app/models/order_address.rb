@@ -8,6 +8,7 @@ class OrderAddress
     validates :city
     validates :address
     validates :phone_number
+    validates :order_id
     validates :user_id
     validates :item_id
     validates :token
