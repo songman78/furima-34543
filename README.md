@@ -1,7 +1,7 @@
 # テーブル設計
 
 ## アプリURL 
-https://furima-34543.herokuapp.com/items/64/orders
+https://furima-34543.herokuapp.com
 
 ## users テーブル
 
