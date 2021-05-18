@@ -1,7 +1,8 @@
 # テーブル設計
 
-# アプリURL 
-<link  href="https://furima-34543.herokuapp.com/items/64/orders">
+## アプリURL 
+https://furima-34543.herokuapp.com/items/64/orders
+
 ## users テーブル
 
 | Column              | Type   | Options                 |
